@@ -1,3 +1,5 @@
 Android BootCamp Apps
 
 - ToDo List App (hello_world)
+  Only includes 4 major source code (*.java, *.xml) due to workspace/git issue
+  TODO feature: refresh the main screen after editing
