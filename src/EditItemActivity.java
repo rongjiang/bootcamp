@@ -21,7 +21,9 @@ public class EditItemActivity extends Activity {
 		int code = getIntent().getIntExtra("code", 0);
 		// display the text in the editable field
 		EditText etText = (EditText) findViewById(R.id.editTxt);
-		etText.setText(text, TextView.BufferType.NORMAL);;
+		etText.setText(text, TextView.BufferType.NORMAL);
+		// move cursor to the end of the text
+		etText.setSelection(etText.getText().length());
 	}
 
 	public void onSubmit(View v) {
